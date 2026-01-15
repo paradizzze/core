@@ -1,0 +1,22 @@
+{
+  "name": "@ship-buttle/core",
+  "version": "1.0.0",
+  "description": "Core utilities and shared setup",
+  "type": "commonjs",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Maxim"
+    
+  },
+  "license": "ISC",
+  "peerDependencies": {
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2"
+  },
+  "exports": "./src/prettier.config.mjs"
+}
