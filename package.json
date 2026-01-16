@@ -1,8 +1,8 @@
 {
   "name": "@paradizzze/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Core utilities and shared setup",
-  "type": "commonjs",
+  "type": "module",
   "publishConfig": {
     "access": "public"
   },
@@ -17,5 +17,7 @@
   "dependencies": {
     "@trivago/prettier-plugin-sort-imports": "^6.0.2"
   },
-  "exports": "./src/prettier.config.mjs"
+  "exports":{
+     "./prettier": "./src/prettier.config.mjs" 
+    }
 }
