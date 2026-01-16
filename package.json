@@ -1,6 +1,6 @@
 {
   "name": "@paradizzze/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Core utilities and shared setup",
   "type": "commonjs",
   "publishConfig": {
@@ -9,7 +9,6 @@
   "keywords": [],
   "author": {
     "name": "Maxim"
-    
   },
   "license": "ISC",
   "peerDependencies": {
