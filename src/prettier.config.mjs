@@ -5,14 +5,14 @@ export default {
     useTabs: true,
     semi: false,
     singleQuote: true,
-    jszSingle: true,
+    jsxSingleQuote: true,
     arrowParens: "avoid",
     importOrderSeparation: true,
     importOrderSortSpecifiers: true,
     importOrderCaseInsensitive: true,
     importOrderParserPlugins: [
         "classProperties",
-        "decorators-legasi",
+        "decorators-legacy",
         "typescript"
     ],
     importOrder: ["<THIRD_PARTY_MODULES>", "^@/(.*)$", "^../(.*)", "^./(.*)"],
